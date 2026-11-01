@@ -6,7 +6,7 @@
 // Structure to hold word and its hint
 struct WordItem {
     char word[20];
-    char hint[50];
+    char hint[100];
 };
 
 // Function to scramble the letters of a word
@@ -14,7 +14,6 @@ void scrambleWord(char *word, char *scrambled) {
     int len = strlen(word);
     strcpy(scrambled, word);
     
-    // Simple random shuffle
     for (int i = 0; i < len; i++) {
         int r = rand() % len;
         char temp = scrambled[i];
@@ -22,14 +21,12 @@ void scrambleWord(char *word, char *scrambled) {
         scrambled[r] = temp;
     }
     
-    // Ensure it doesn't stay exactly the same
     if (strcmp(word, scrambled) == 0 && len > 1) {
         scrambleWord(word, scrambled);
     }
 }
 
 int main() {
-    // Array of words covering General, Space, Science, and Tech
     struct WordItem wordList[] = {
         {"PLANET", "A large body orbiting a star (General/Space)"},
         {"GALAXY", "A massive system of stars and dust (Space)"},
@@ -50,30 +47,35 @@ int main() {
     
     srand(time(0));
     
+    // Shuffle all words so we never get duplicates in a session
+    for (int i = totalWords - 1; i > 0; i--) {
+        int j = rand() % (i + 1);
+        struct WordItem temp = wordList[i];
+        wordList[i] = wordList[j];
+        wordList[j] = temp;
+    }
+    
     printf("========================================\n");
     printf("      WELCOME TO WORDSMITH ANAGRAM      \n");
     printf("========================================\n");
     printf("Guess the mixed words using the hints!\n\n");
     
-    // Play 5 random rounds per session
+    // Play 5 rounds with guaranteed unique words
     for (int round = 1; round <= 5; round++) {
-        int index = rand() % totalWords;
-        scrambleWord(wordList[index].word, scrambled);
+        scrambleWord(wordList[round - 1].word, scrambled);
         
         printf("--- Round %d ---\n", round);
         printf("Scrambled Word: %s\n", scrambled);
-        printf("Hint: %s\n", wordList[index].hint);
+        printf("Hint: %s\n", wordList[round - 1].hint);
         printf("Your Guess: ");
         
         scanf("%s", guess);
         
-        // Convert user guess to uppercase manually or compare directly
-        // (Assuming user types in caps)
-        if (strcmp(guess, wordList[index].word) == 0) {
+        if (strcmp(guess, wordList[round - 1].word) == 0) {
             printf(" Correct! +10 Points\n\n");
             score += 10;
         } else {
-            printf(" Wrong! The correct word was: %s\n\n", wordList[index].word);
+            printf(" Wrong! The correct word was: %s\n\n", wordList[round - 1].word);
         }
     }
     
