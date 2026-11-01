@@ -10,7 +10,7 @@
 
 * **📄 Official Project Abstract Document:** [Download / View PRA_WordSmith.pdf](PRA_WordSmith.pdf)
 * **Core Technologies & Concepts:** C Programming, String Manipulation, Algorithmic Shuffling (`rand()`), Text Analysis (Vowels/Consonants, Palindromes).
-* 
+  
 
 ---
 
