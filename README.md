@@ -27,11 +27,11 @@
 * *Description:* Displays the live arcade container featuring responsive CSS styling, real-time timer countdowns, and dynamic hint rendering.
 
 ### 2. C Terminal Source Code (`wordsmith.c`)
-![C Source Code](IMG_20261101_161059.jpg)
+![C Source Code](IMG_20261101_161211.jpg)
 * *Description:* Demonstrates the foundational C structure handling struct arrays, string manipulation functions, and secure memory tracking.
 
 ### 3. Terminal Execution Output
-![Terminal Output](IMG_20261101_161211.jpg)
+![Terminal Output](IMG_20261101_161059.jpg)
 * *Description:* Captures a successful 5-round game session running in an online compiler environment, showing zero-warning compilation and clean score aggregation.
 * 
 
