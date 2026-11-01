@@ -33,11 +33,11 @@
 ### 3. Terminal Execution Output
 ![Terminal Output](IMG_20261101_161059.jpg)
 * *Description:* Captures a successful 5-round game session running in an online compiler environment, showing zero-warning compilation and clean score aggregation.
-* 
+  
 
 ---
 
 ## 👥 Team & Submission Details
 * **Project Type:** PPS PRA Activity (#5: GitHub Repository & Implementation)
 * **Components Included:** C Terminal Source Code, HTML5 Web Prototype, Documentation, and Visual Proofs.
-* 
+  
