@@ -1,2 +1,41 @@
-# wordsmith-project
-text analysis and word anagram!
+# Wordsmith: Terminal & Web Text Analysis Anagram Game
+
+## 📌 Project Overview
+**Wordsmith** is a creative cross-platform project built to test anagram-solving speed, string manipulation, and user interface design. It bridges low-level terminal logic with modern web architecture by featuring a C-based command-line program alongside a responsive web application prototype.
+
+---
+
+## 📝 Abstract
+
+---
+
+## 📊 Flowchart & Architecture
+
+---
+
+## 🎨 Project Poster
+
+
+## 🎥 YouTube Demo Video Link
+
+---
+
+## 📸 Project Visual Evidence & Screenshots
+### 1. Web Game Interface (`index.html`)
+* **File Reference:** `IMG_20261101_154325.jpg`
+* *Description:* Displays the live arcade container featuring responsive CSS styling, real-time timer countdowns, and dynamic hint rendering.
+
+### 2. C Terminal Source Code (`wordsmith.c`)
+* **File Reference:** `IMG_20261101_161059.jpg`
+* *Description:* Demonstrates the foundational C structure handling struct arrays, string manipulation functions, and secure memory tracking.
+
+### 3. Terminal Execution Output
+* **File Reference:** `IMG_20261101_161211.jpg`
+* *Description:* Captures a successful 5-round game session running in an online compiler environment, showing zero-warning compilation and clean score aggregation.
+
+---
+
+## 👥 Team & Submission Details
+* **Project Type:** PPS PRA Activity (#5: GitHub Repository & Implementation)
+* **Components Included:** C Terminal Source Code, HTML5 Web Prototype, Documentation, and Visual Proofs.
+* 
