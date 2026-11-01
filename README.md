@@ -15,7 +15,7 @@
 ---
 ## 📊 Flowchart & Architecture
 * **📄 Official Flowchart Document:** [Download / View Flowchart PDF](WordSmith%20game%20flowchart.pdf)
-* 
+  
 ---
 
 ## 🎨 Project Poster
