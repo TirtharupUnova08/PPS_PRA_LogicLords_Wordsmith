@@ -15,7 +15,13 @@
 ---
 
 ## 📊 Flowchart & Architecture
+* **📄 Official Flowchart Document:** [Download / View WordSmith game flowchart.pdf](WordSmith game flowchart.pdf)
 
+### Core Execution Pipeline:
+1. **01 / Setup Phase:** Displays the main interactive menu, handles game mode selection (*Unscramble* or *Word builder*), generates target words, shuffles characters, and initializes the session timer[span_0](start_span)[span_0](end_span).
+2. **02 / Gameplay Phase:** Manages real-time input validation, continuously checks remaining time and word accuracy, updates live scores dynamically, and loops rounds until completion[span_1](start_span)[span_1](end_span).
+3. **03 / Results Phase:** Compiles final performance statistics, displays the aggregate score, and handles user prompts to restart or exit the application[span_2](start_span)[span_2](end_span).
+4. 
 ---
 
 ## 🎨 Project Poster
