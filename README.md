@@ -6,6 +6,11 @@
 ---
 
 ## 📝 Abstract
+**WordSmith** is a console-based word anagram game written in C designed to test vocabulary and logical thinking through core programming concepts like strings, arrays, modular functions, and character frequency analysis. Beyond entertainment, it demonstrates how string-handling and text-analysis techniques apply to search engines, spell checkers, and natural language processing.
+
+* **📄 Official Project Abstract Document:** [Download / View PRA_WordSmith.pdf](PRA_WordSmith.pdf)
+* **Core Technologies & Concepts:** C Programming, String Manipulation, Algorithmic Shuffling (`rand()`), Text Analysis (Vowels/Consonants, Palindromes).
+* 
 
 ---
 
